@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rosybrown;
+}
+
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    .title{
+        font-size: 60px;
+        color: #fff;
+    }
+
+    
+    .sum{
+        padding: 15px 10px;
+        outline: none;
+        margin: 50px 0 0 0;
+        width: 400px;
+        height: 50px;
+        font-size: 22px;
+        border-radius: 3px;
+    }
+
+
+    .result{
+        color: #fff;
+        font-size: 38px;
+        padding: 50px 0;
+    }
+
+    .usd{
+        background-color: #6b8068;
+        color: #fff;
+        font-weight: 600;
+        font-size: 18px;
+        width: 200px;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 0px;
+        // margin-left: 50px;
+    }
+
+    .euro{
+        background-color: #df2020;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 600;
+        width: 200px;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 0px;
+        margin-left: 50px;
+    }
+}
